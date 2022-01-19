@@ -1,10 +1,12 @@
 {
   "name": "social-network-api",
   "version": "1.0.0",
-  "description": "an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
+  "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/sbuntz/Social-Network-API/issues"
   },
-  "homepage": "https://github.com/sbuntz/Social-Network-API#readme"
+  "homepage": "https://github.com/sbuntz/Social-Network-API#readme",
+"dependencies": {
+  "express": "^4.17.1",
+  "moment": "^2.29.1",
+  "mongoose": "^6.0.13"
+},
+"devDependencies": {
+  "nodemon": "^2.0.9"
 }
+}
+
