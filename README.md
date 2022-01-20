@@ -6,7 +6,6 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
 - [Credits](#credits)
 - [License](#license)
 
